@@ -4,7 +4,7 @@ def temperatureConversion():
     while True:
         inputTemperature = input("Choose input temperature type [C,F,K] ->")
         
-        match inputTemperature:
+        match inputTemperature.upper():
             case "C":
                 break
             case "F":
