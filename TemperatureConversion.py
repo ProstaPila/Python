@@ -75,18 +75,3 @@ conversionDict = {
 def temperatureConversionLogic(inputTemperatureType, outputTemperatureType, temperature):
     func = conversionDict[(inputTemperatureType,outputTemperatureType)]
     return func(temperature)
-    
-
-#menu of avaiable options
-def converterMenu():
-    primaryChoice = input("Choose a number on a keyboard coresponding to the number of the function:\n 1. Temperature Conversion\n 2. Metric and Imperial units converter \n 0. Exit\n Choose option->")
-
-    match primaryChoice:
-        case "1":
-            temperatureConversion()  
-        case "0":
-            return 1
-        case _:
-            print("\nChoose the valid option\n")
-            time.sleep(1)
-            converterMenu()

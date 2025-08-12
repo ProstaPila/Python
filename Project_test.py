@@ -1,4 +1,4 @@
-from Project_Functions import fromCtoF, fromCtoK , fromKtoC, fromKtoF, fromFtoC, fromFtoK
+from Python.TemperatureConversion import fromCtoF, fromCtoK , fromKtoC, fromKtoF, fromFtoC, fromFtoK
 from pytest import approx
 
 def test_fromCtoF():
