@@ -1,4 +1,4 @@
-from Python.TemperatureConversion import fromCtoF, fromCtoK , fromKtoC, fromKtoF, fromFtoC, fromFtoK
+from TemperatureConversion import fromCtoF, fromCtoK , fromKtoC, fromKtoF, fromFtoC, fromFtoK
 from pytest import approx
 
 def test_fromCtoF():
