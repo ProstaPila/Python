@@ -1,4 +1,5 @@
 from TemperatureConversion import *
+from CurrencyCalculator import *
 import time
 
 #menu of avaiable options
@@ -8,6 +9,8 @@ def converterMenu():
     match primaryChoice:
         case "1":
             temperatureConversion()
+        case "2":
+            currencyCalculator()
         case "0":
             return 1
         case _:
